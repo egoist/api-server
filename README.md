@@ -7,7 +7,6 @@ Establish an API server which is written in ES2015+.
 - [x] Express
 - [x] nodemon
 - [x] Basic routing
-- [ ] Basic auth (Using [JWT](https://github.com/auth0/node-jsonwebtoken) and GitHub OAuth)
 - [x] ES2015 (`async/await` and stage-0 features)
 - [ ] Basic unit testing
 - [ ] Lint with XO

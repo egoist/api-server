@@ -9,7 +9,7 @@ Establish an API server which is written in ES2015+.
 - [x] Basic routing
 - [x] ES2015 (`async/await` and stage-0 features)
 - [ ] Basic unit testing
-- [ ] Lint with XO
+- [x] Lint with XO
 
 ## Scripts
 
@@ -18,6 +18,7 @@ Establish an API server which is written in ES2015+.
 |npm run build|Build server to ES5|
 |npm run dev|Start dev server|
 |npm start|Start production server|
+|npm run lint|Lint your code with XO|
 
 ## License
 

@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node bootstrap.js",
     "dev": "NODE_ENV=development nodemon dev-server.js --watch src -L",
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "lint": "xo src/**"
   },
   "repository": {
     "type": "git",
@@ -38,6 +39,12 @@
     "babel-register": "^6.7.2",
     "nodemon": "^1.9.1",
     "rollup": "^0.25.6",
-    "rollup-plugin-babel": "^2.4.0"
+    "rollup-plugin-babel": "^2.4.0",
+    "xo": "^0.13.0"
+  },
+  "xo": {
+    "space": 2,
+    "exnext": true,
+    "semicolon": false
   }
 }

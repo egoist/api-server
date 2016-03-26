@@ -3,15 +3,15 @@ import bodyParser from 'body-parser'
 import routes from './routes/index'
 
 export default function server(root) {
-	const app = express()
+  const app = express()
 
-	app.use(bodyParser.urlencoded({ extended: false }))
-	app.use(bodyParser.json())
+  app.use(bodyParser.urlencoded({ extended: false }))
+  app.use(bodyParser.json())
 
-	app.use('/', routes)
+  app.use('/', routes)
 
-	const port = app.get('APP_PORT') || 3000
-	app.listen(port, () => {
-		console.log(`Listening at http://localhost:${port}`)
-	})
+  const port = app.get('APP_PORT') || 3000
+  app.listen(port, () => {
+    console.log(`Listening at http://localhost:${port}`)
+  })
 }

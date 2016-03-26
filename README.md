@@ -11,6 +11,7 @@ Establish an API server which is written in ES2015+.
 - [x] ES2015 (`async/await` and stage-0 features)
 - [ ] Basic unit testing
 - [ ] Basic database integrating (mongoDB)
+- [ ] Lint with XO
 
 ## Scripts
 

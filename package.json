@@ -13,6 +13,9 @@
     "type": "git",
     "url": "git+https://github.com/egoist/api-server.git"
   },
+  "engines": {
+    "node": ">=4"
+  },
   "keywords": [
     "api"
   ],

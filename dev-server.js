@@ -7,4 +7,4 @@ if (isDev) {
   })
 }
 
-require('./src/index').default(__dirname)
+require('./src/index').default()

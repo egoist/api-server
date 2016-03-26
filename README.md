@@ -11,6 +11,19 @@ Establish an API server which is written in ES2015+.
 - [ ] Basic unit testing
 - [x] Lint with XO
 
+## Download
+
+To download a bare repo, you can run following commands in your shell:
+
+```bash
+$ npm i -g download-repo-cli
+$ download-repo egoist/api-server -o api-server
+$ cd api-server
+# let the hacking begin! 🎉
+```
+
+It's quite like `git clone --depth=1`, but a little faster and do not contain any commit history.
+
 ## Scripts
 
 |Command|Description|
